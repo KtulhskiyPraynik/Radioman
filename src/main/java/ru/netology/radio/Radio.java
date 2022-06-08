@@ -6,8 +6,11 @@ public class Radio {
     private int currentStation;
     private int currentVolume;
 
-    public Radio() {
+    public Radio(int numberStation) {
         this.numberStation = numberStation;
+    }
+
+    public Radio() {
     }
 
     public void setCurrentStation(int currentStation) {
